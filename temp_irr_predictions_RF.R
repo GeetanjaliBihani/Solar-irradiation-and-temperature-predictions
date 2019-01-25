@@ -1,7 +1,6 @@
 ##install.packages('randomForest')
 library(randomForest)
 set.seed(101)
-dim(Boston)
 
 #DATA PREP
 enphase<-read.csv("/Users/geetanjalibihani/Dropbox/Solar/data/enphase.csv", header = TRUE)
